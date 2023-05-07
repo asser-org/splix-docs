@@ -8,14 +8,14 @@
                 "title": "Installation",
                 "date": "2023-05-07",
                 "section": "install",
-                "path": ""
+                "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/install.json"
             },
             {
                 "id": 1.2,
                 "title": "Basics",
                 "date": "2023-05-07",
                 "section": "basics",
-                "path": ""
+                "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/basics.json"
             }
         ]
     }
