@@ -1,0 +1,32 @@
+[
+    {
+        "id": "desktop",
+        "type": "title",
+        "text": "Desktop"
+    },
+    {
+        "id": "desktop",
+        "type": "text",
+        "text": "Splix is available for macOS, Windows and Linux. Download the desktop application bundle at [splix.org/#/download](https://splix.org/#/download)."
+    },
+    {
+        "id": "path",
+        "type": "title",
+        "text": "Path"
+    },
+    {
+        "id": "path",
+        "type": "text",
+        "text": "Add Splix executable to your path. This step is not necessary, but is recommended if you want to use latest features which are not available in the user-interface."
+    },
+    {
+        "id": "path",
+        "type": "cmd",
+        "cmd": "sudo echo >> ~.zshrc /Users/user/Applications/splix.app/Contents/Resources/bin"
+    },
+    {
+        "id": "path",
+        "type": "text",
+        "text": "This is an example command for <b>macOS</b>, and it will add Splix to your path, if your shell is [zsh](https://en.wikipedia.org/wiki/Z_shell). Replace the <b>user</b> with your own username."
+    }
+]

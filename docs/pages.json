@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Getting started",
+        "items":  [
+            {
+                "id": 1.1,
+                "title": "Installation",
+                "date": "2023-05-07",
+                "section": "install",
+                "path": ""
+            },
+            {
+                "id": 1.2,
+                "title": "Basics",
+                "date": "2023-05-07",
+                "section": "basics",
+                "path": ""
+            }
+        ]
+    }
+]
