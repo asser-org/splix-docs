@@ -7,7 +7,7 @@
     {
         "id": "codecs-overview",
         "type": "text",
-        "text": "Splix supports most of the common subtitle formats that are used in productions. If a format is not supported, you can request it to be supported, or check if the format is already on the [roadmap](https://splix.org/#/docs/codecs#roadmap). View the list below for currently supported codecs."
+        "text": "Splix supports most of the common subtitle formats that are used in productions. If a format is not supported, you can request it to be supported, or check if the format is already on the [roadmap](#roadmap). View the list below for currently supported codecs."
     },
     {
         "id": "supported-codecs",
