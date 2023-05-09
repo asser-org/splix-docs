@@ -1,0 +1,51 @@
+splix configuration file 0.3.7
+https://splix.org/#/docs/config
+
+splix_general: {
+  export_mode:<0>
+  export_dir:<aex_no_path>
+  backup_mode:<1>
+  backup_dir:<aex_no_path>
+  auto_match_top:<1>
+  remove_long_line:<0>
+  overwrite_mode:<overwrite>
+  removal_keyword:<aex_ignore>
+  sync_buffer:<00:01:25,5000>
+  line_tuning:<ja_en>
+  force_line_break:<1>
+  frame_rate:<23.976>
+  screen_width:<1920>
+  screen_height:<1080>
+  include_actors:<0>
+  user_removal_key:<aex_ignore>
+  fix_upper_words:<0>
+  long_line_dur:<10000>
+}
+
+splix_mkv: {
+  force_sub_lang:<aex_ignore>
+  force_audio_lang:<aex_ignore>
+  embedded_subtitles:<0>
+  main_audio_lang:<ja>
+  exact_track_name:<aex_ignore>
+  custom_track_ignore:<aex_ignore>
+  cut_time:<aex_ignore>
+  keep_chapters:<0>
+  exclude_tracks:<aex_ignore>
+}
+
+splix_styles: {
+  style_match:<mixed>
+  style_main:<Splix Demo>
+  style_top:<aex_ignore>
+  style_overlap:<aex_ignore>
+  style_overlap_italic:<aex_ignore>
+  style_italic:<aex_ignore>
+  style_italic_top:<aex_ignore>
+  style_flashback:<aex_ignore>
+  style_flashback_top:<aex_ignore>
+  style_flashback_italic:<aex_ignore>
+  style_narration:<aex_ignore>
+  style_custom_main:<aex_ignore>
+  style_custom_italic_top:<aex_ignore>
+}

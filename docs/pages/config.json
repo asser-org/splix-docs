@@ -1,0 +1,37 @@
+[
+    {
+        "id": "config-overview",
+        "type": "title",
+        "text": "Overview"
+    },
+    {
+        "id": "config-overview",
+        "type": "text",
+        "text": "Splix uses config files to determine decoding and encoding settings. Note that the config is optional and is not needed. The files can be named: .config.aex, .splix_config/config.aex or config.aex. Config files are placed inside the input path directory. The config will apply to all files inside the directory. Theses values can also be parsed from the arguments, with the exception of styles."
+    },
+    {
+        "id": "new-config",
+        "type": "title",
+        "text": "Initialize a new config"
+    },
+    {
+        "id": "new-config",
+        "type": "text",
+        "text": "You can create a new config file inside the specified input path with the mode config."
+    },
+    {
+        "id": "new-config",
+        "type": "cmd",
+        "cmd": "splix -c /Users/user/Desktop/directory/"
+    },
+    {
+        "id": "example-file",
+        "type": "title",
+        "text": "Example configuration file"
+    },
+    {
+        "id": "example-file",
+        "type": "code",
+        "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/code/config.aex"
+    }
+]
