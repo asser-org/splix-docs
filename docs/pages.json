@@ -18,5 +18,31 @@
                 "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/basics.json"
             }
         ]
+    },
+    {
+        "id": 2,
+        "title": "Formats",
+        "items":  [
+            {
+                "id": 2.1,
+                "title": "Supported codecs",
+                "date": "2023-05-09",
+                "section": "codecs",
+                "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/codecs.json"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Configuration",
+        "items":  [
+            {
+                "id": 3.1,
+                "title": "Styles",
+                "date": "2023-05-09",
+                "section": "styles",
+                "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/styles.json"
+            }
+        ]
     }
 ]
