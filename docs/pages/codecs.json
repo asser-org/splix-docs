@@ -2,12 +2,12 @@
     {
         "id": "codecs-overview",
         "type": "title",
-        "text": "What codecs are supported?"
+        "text": "Overview"
     },
     {
         "id": "codecs-overview",
         "type": "text",
-        "text": "Splix supports most of the common subtitle formats that are used in productions. If a format is not supported, you can request it to be supported, or check if the format is already on the [roadmap](https://splix.org/#/docs/codecs)."
+        "text": "Splix supports most of the common subtitle formats that are used in productions. If a format is not supported, you can request it to be supported, or check if the format is already on the [roadmap](https://splix.org/#/docs/codecs). View the list below for currently supported codecs."
     },
     {
         "id": "supported-codecs",
@@ -70,5 +70,10 @@
                 "extension": "ts, dvbt"
             }
         ]
+    },
+    {
+        "id": "supported-codecs",
+        "type": "text",
+        "text": "Some [containers](https://splix.org/#/docs/containers) may not support all of these codecs, refer to the containers own specification to see which codecs are supported."
     }
 ]
