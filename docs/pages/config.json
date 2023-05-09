@@ -7,7 +7,7 @@
     {
         "id": "config-overview",
         "type": "text",
-        "text": "Splix uses config files to determine decoding and encoding settings. Note that the config is optional and is not needed. The files can be named: .config.aex, .splix_config/config.aex or config.aex. Config files are placed inside the input path directory. The config will apply to all files inside the directory. Theses values can also be parsed from the arguments, with the exception of styles."
+        "text": "Splix uses config files to determine decoding and encoding settings. Note that the config is optional and is not needed. The files can be named: .config.aex, .splix_config/config.aex or config.aex. Config files should be placed inside the input path directory. The config will apply to all files inside the directory. Theses values can also be parsed from the arguments, with the exception of styles."
     },
     {
         "id": "new-config",
