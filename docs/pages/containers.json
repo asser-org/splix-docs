@@ -1,0 +1,52 @@
+[
+    {
+        "id": "containers-overview",
+        "type": "title",
+        "text": "Overview"
+    },
+    {
+        "id": "containers-overview",
+        "type": "text",
+        "text": "Splix can decode some of the most common container formats, though it is recommended to use [Matroska](https://www.matroska.org/index.html). View the full list below."
+    },
+    {
+        "id": "supported-containers",
+        "type": "title",
+        "text": "Supported containers"
+    },
+    {
+        "id": "supported-containers",
+        "type": "table",
+        "titles": [ "id", "name", "extension", "demux", "mux" ],
+        "items": [
+            {
+                "id": "C_MATROSKA",
+                "name": "Matroska",
+                "extension": "mkv",
+                "demux": "true",
+                "mux": "true"
+            },
+            {
+                "id": "C_WEBM",
+                "name": "WebM",
+                "extension": "webm",
+                "demux": "true",
+                "mux": "false"
+            },
+            {
+                "id": "C_MPEG4",
+                "name": "MPEG-4 Part 14",
+                "extension": "mp4, m4p, m4b, m4r, m4v",
+                "demux": "true",
+                "mux": "false"
+            },
+            {
+                "id": "C_MPEG/TS",
+                "name": "MPEG-2 Transport Stream",
+                "extension": "ts, tsv, tsa, m2t, m2ts",
+                "demux": "true",
+                "mux": "false"
+            }
+        ]
+    }
+]

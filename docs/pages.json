@@ -29,6 +29,13 @@
                 "date": "2023-05-09",
                 "section": "codecs",
                 "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/codecs.json"
+            },
+            {
+                "id": 2.2,
+                "title": "Containers",
+                "date": "2023-05-09",
+                "section": "containers",
+                "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/containers.json"
             }
         ]
     },
