@@ -7,7 +7,7 @@
     {
         "id": "global",
         "type": "text",
-        "text": "View the list for application-wide shortcuts that can be used to speed up the workflow. The <b>super</b>-key is a placeholder for the os-specific key. Super-key for macOS: <b>cmd</b>, Linux & Windows: <b>Ctrl</b>"
+        "text": "View the list for application-wide shortcuts that can be used to speed up the workflow. The <b>super</b>-key is a placeholder for a os-specific key. Super-key for macOS: <b>⌘</b>, Linux & Windows: <b>Ctrl</b>"
     },
     {
         "id": "global",

@@ -16,6 +16,11 @@
         "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/images/wds0vuy8eeapse8ic991.png"
     },
     {
+        "id": "desktop",
+        "type": "text",
+        "text": "After starting the app, you will see the Splix main-screen, which is shown above. Get familiar with the user-interface and proceed to the next step."
+    },
+    {
         "id": "path",
         "type": "title",
         "text": "Path"
