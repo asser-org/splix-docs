@@ -1,7 +1,59 @@
 [
     {
-        "id": "open-file",
+        "id": "global",
         "type": "title",
-        "text": "Open a file"
+        "text": "Global"
+    },
+    {
+        "id": "global",
+        "type": "text",
+        "text": "View the list for application-wide shortcuts that can be used to speed up the workflow. The <b>super</b>-key is a placeholder for the os-specific key. Super-key for macOS: <b>cmd</b>, Linux & Windows: <b>Ctrl</b>"
+    },
+    {
+        "id": "global",
+        "type": "table",
+        "titles": [ "key", "function" ],
+        "items": [
+            {
+                "key": "Spacebar",
+                "function": "Toggle play/pause"
+            },
+            {
+                "key": "M",
+                "function": "Toggle mute"
+            },
+            {
+                "key": "Super + Z",
+                "function": "Undo"
+            },
+            {
+                "key": "Super + Y",
+                "function": "Redo"
+            },
+            {
+                "key": "Super + T",
+                "function": "New tab"
+            },
+            {
+                "key": "Super + N",
+                "function": "Load file"
+            },
+            {
+                "key": "Super + L",
+                "function": "Load last session"
+            },
+            {
+                "key": "Super + S",
+                "function": "Save current session"
+            },
+            {
+                "key": "Super + E",
+                "function": "Export current file"
+            },
+            {
+                "key": "Super + K",
+                "function": "New translation"
+            }
+        ]
     }
 ]
