@@ -3,5 +3,10 @@
         "id": "styles-overview",
         "type": "title",
         "text": "What are styles?"
+    },
+    {
+        "id": "styles-overview",
+        "type": "text",
+        "text": "Styles can be used when parsing [Advanced SubstationAlpha](https://splix.org/#/codecs) codec. They usually define if the line is italic, bold, etc. User can manually define styles that are included when Splix parses a file. By default Splix will automatically detect lines which contain dialogue. In some rare cases user might want to include some styles that were not detected by Splix."
     }
 ]

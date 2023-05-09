@@ -3,5 +3,10 @@
         "id": "codecs-overview",
         "type": "title",
         "text": "What codecs are supported?"
+    },
+    {
+        "id": "codecs-overview",
+        "type": "text",
+        "text": "Splix supports most of the common subtitle formats that are used in productions. If a subtitle format is not supported, you can request it to be supported, or check if the format is already on the [roadmap](https://splix.org/#/docs/codecs) for support."
     }
 ]
