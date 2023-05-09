@@ -8,5 +8,67 @@
         "id": "codecs-overview",
         "type": "text",
         "text": "Splix supports most of the common subtitle formats that are used in productions. If a format is not supported, you can request it to be supported, or check if the format is already on the [roadmap](https://splix.org/#/docs/codecs)."
+    },
+    {
+        "id": "supported-codecs",
+        "type": "title",
+        "text": "Supported codecs"
+    },
+    {
+        "id": "supported-codecs",
+        "type": "table",
+        "titles": [ "id", "name", "extension" ],
+        "items": [
+            {
+                "id": "S_TEXT/UTF8",
+                "name": "SubRip",
+                "extension": "srt"
+            },
+            {
+                "id": "S_TEXT/WEBVTT",
+                "name": "Web Video Text Tracks",
+                "extension": "vtt"
+            },
+            {
+                "id": "S_TEXT/TTML",
+                "name": "Timed Text Markup Language",
+                "extension": "xml"
+            },
+            {
+                "id": "S_TEXT/ASS",
+                "name": "Advanced SubStation Alpha",
+                "extension": "ass"
+            },
+            {
+                "id": "S_TEXT/LRC",
+                "name": "Lyrics",
+                "extension": "lrc"
+            },
+            {
+                "id": "S_TEXT/SBV",
+                "name": "YouTube Subtitle",
+                "extension": "sbv"
+            },
+            {
+                "id": "S_HDMV/PGS",
+                "name": "Presentation Graphic Stream",
+                "extension": "sup"
+            },
+            {
+                "id": "S_VOBSUB",
+                "name": "VobSub",
+                "extension": "sub, idx"
+            },
+            {
+              "id": "S_DVBSUB",
+              "name": "Digital Video Broadcasting Subtitle",
+              "extension": "ts, dvbs"
+            },
+            {
+                "id": "S_TEXT/DVB",
+                "name": "Digital Video Broadcasting Teletext Subtitle",
+                "extension": "ts, dvbt"
+            }
+        ]
     }
 ]
