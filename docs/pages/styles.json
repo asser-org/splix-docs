@@ -7,6 +7,6 @@
     {
         "id": "styles-overview",
         "type": "text",
-        "text": "Styles can be used when parsing [Advanced SubStation Alpha](https://splix.org/#/codecs) codec. They usually define if the line is italic, bold, etc. User can manually define styles that are included when Splix parses a file. By default Splix will automatically detect lines which contain dialogue. In some rare cases user might want to include some styles that were not detected by Splix."
+        "text": "Styles can be used when parsing [Advanced SubStation Alpha](https://splix.org/#/docs/codecs) codec. They usually define if the line is italic, bold, etc. User can manually define styles that are included when Splix parses a file. By default Splix will automatically detect lines which contain dialogue. In some rare cases user might want to include some styles that were not detected by Splix."
     }
 ]
