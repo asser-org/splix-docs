@@ -74,6 +74,23 @@
     {
         "id": "supported-codecs",
         "type": "text",
-        "text": "Some [containers](https://splix.org/#/docs/containers) may not support all of these codecs, refer to the containers own specification to see which codecs are supported."
+        "text": "Some [containers](https://splix.org/#/docs/containers) may not support all of these codecs, refer to containers own specification to see which codecs are supported."
+    },
+    {
+        "id": "roadmap",
+        "type": "title",
+        "text": "Support roadmap"
+    },
+    {
+        "id": "roadmap",
+        "type": "table",
+        "titles": [ "id", "name", "extension" ],
+        "items": [
+            {
+                "id": "S_TEXT/BS",
+                "name": "Bilibili CC",
+                "extension": "json"
+            }
+        ]
     }
 ]
