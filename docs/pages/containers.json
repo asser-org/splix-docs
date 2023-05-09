@@ -7,7 +7,7 @@
     {
         "id": "containers-overview",
         "type": "text",
-        "text": "Splix can decode some of the most common container formats, though it is recommended to use [Matroska](https://www.matroska.org/index.html). View the full list below."
+        "text": "Splix can decode some of the most common container formats, though it is recommended to use [Matroska](https://www.matroska.org/index.html). View the list below to see the supported formats and demux & muxing capabilities."
     },
     {
         "id": "supported-containers",
@@ -22,7 +22,7 @@
             {
                 "id": "C_MATROSKA",
                 "name": "Matroska",
-                "extension": "mkv",
+                "extension": "mkv, mks, mka",
                 "demux": "true",
                 "mux": "true"
             },

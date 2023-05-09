@@ -12,10 +12,10 @@
             },
             {
                 "id": 1.2,
-                "title": "Basics",
-                "date": "2023-05-07",
-                "section": "basics",
-                "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/basics.json"
+                "title": "Shortcuts",
+                "date": "2023-05-09",
+                "section": "shortcuts",
+                "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/shortcuts.json"
             }
         ]
     },
