@@ -33,7 +33,7 @@
     {
         "id": "path",
         "type": "cmd",
-        "cmd": "echo >> ~/.zshrc export \"PATH=\\$PATH:/Users/$USER/Applications/splix.app/Contents/Resources/bin\""
+        "cmd": "echo >> ~/.zshrc export \"PATH=\\$PATH:/Applications/splix.app/Contents/Resources/bin\""
     },
     {
         "id": "path",
