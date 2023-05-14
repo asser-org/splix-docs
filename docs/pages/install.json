@@ -11,6 +11,16 @@
     },
     {
         "id": "desktop",
+        "type": "text",
+        "text": "If you are using Splix on macOS or Linux you may need to install <b>libgdiplus</b> with you package manager. Homebrew is recommended for macOS."
+    },
+    {
+        "id": "desktop",
+        "type": "cmd",
+        "cmd": "brew install mono-libgdiplus"
+    },
+    {
+        "id": "desktop",
         "type": "img",
         "text": "Splix desktop app",
         "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/images/wds0vuy8eeapse8ic991.png"
