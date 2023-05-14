@@ -12,7 +12,7 @@
     {
         "id": "desktop",
         "type": "text",
-        "text": "If you are using Splix on macOS or Linux you may need to install <b>libgdiplus</b> with you package manager. Homebrew is recommended for macOS."
+        "text": "Note: This step is only for alpha users! On macOS or Linux you may need to install <b>libgdiplus</b> with your package manager. Homebrew is recommended for macOS."
     },
     {
         "id": "desktop",
