@@ -1,0 +1,12 @@
+[
+    {
+        "id": "values-overview",
+        "type": "title",
+        "text": "Overview"
+    },
+    {
+        "id": "values-overview",
+        "type": "text",
+        "text": "Config file contains a set of values that determine how file(s) are processed. Creating a config file is not necessary. Splix will apply a recommended configuration automatically, but sometimes this may cause problems, or you might want to tune the output."
+    }
+]

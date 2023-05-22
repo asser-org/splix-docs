@@ -87,9 +87,9 @@
         "titles": [ "id", "name", "extension" ],
         "items": [
             {
-                "id": "S_TEXT/BS",
+                "id": "S_TEXT/BCC",
                 "name": "Bilibili CC",
-                "extension": "json"
+                "extension": "bcc, json"
             }
         ]
     }

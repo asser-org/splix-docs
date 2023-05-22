@@ -13,7 +13,7 @@
             {
                 "id": 1.2,
                 "title": "Shortcuts",
-                "date": "2023-05-09",
+                "date": "2023-05-22",
                 "section": "shortcuts",
                 "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/shortcuts.json"
             }
@@ -46,12 +46,19 @@
             {
                 "id": 3.1,
                 "title": "File",
-                "date": "2023-05-09",
+                "date": "2023-05-22",
                 "section": "config",
                 "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/config.json"
             },
             {
                 "id": 3.2,
+                "title": "Values",
+                "date": "2023-05-22",
+                "section": "config",
+                "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/config-values.json"
+            },
+            {
+                "id": 3.3,
                 "title": "Styles",
                 "date": "2023-05-09",
                 "section": "styles",
