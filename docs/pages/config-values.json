@@ -8,5 +8,20 @@
         "id": "values-overview",
         "type": "text",
         "text": "Config file contains a set of values that determine how file(s) are processed. Creating a config file is not necessary. Splix will apply a recommended configuration automatically, but sometimes this may cause problems, or you might want to tune the output."
+    },
+    {
+        "id": "values-general",
+        "type": "title",
+        "text": "General"
+    },
+    {
+        "id": "values-export-mode",
+        "type": "cmd",
+        "cmd": "export_mode:<0>"
+    },
+    {
+        "id": "values-export-mode",
+        "type": "text",
+        "text": "<b>export_mode</b> is a boolean value, and determines if Splix should create a new output directory for encoded files. The default value is 0, which indicates that a new directory aex_export_YY_MM_DD will be created."
     }
 ]
