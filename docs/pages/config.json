@@ -7,7 +7,17 @@
     {
         "id": "config-overview",
         "type": "text",
-        "text": "Splix uses config files to determine decoding and encoding settings. The file name can be one of the following: .config.aex, .splix_config/config.aex or config.aex. Config files should be placed inside the input path directory. The config will apply to all files inside the directory. Theses values can also be parsed from the arguments, with the exception of styles."
+        "text": "Splix uses config files to determine decoding and encoding settings. The file name can be one of the following: <b>.config.aex</b>, <b>.splix_config/config.aex</b> or <b>config.aex</b>. Config files should be placed inside the input path directory. The config will apply to all files inside the directory. Config values can also be parsed from the arguments, with the exception of styles."
+    },
+    {
+        "id": "override-config",
+        "type": "title",
+        "text": "Override file"
+    },
+    {
+        "id": "override-config",
+        "type": "text",
+        "text": "Global config can be overridden by file-specific config, which has a name that equals the file it will affect. For example if your file had the name subtitle.srt, you can create a override config with <b>subtitle.aex</b>. Note that you should only include the values that you want to <b>override</b>, values that are not present in the override file, are obtained from the global config."
     },
     {
         "id": "new-config",
