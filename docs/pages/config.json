@@ -27,7 +27,7 @@
     {
         "id": "new-config",
         "type": "text",
-        "text": "You can create a new config file inside the specified input path with the mode config."
+        "text": "You can create a new config file inside the specified input path, with the <b>--config</b> argument."
     },
     {
         "id": "new-config",
@@ -42,6 +42,7 @@
     {
         "id": "example-file",
         "type": "code",
+        "lang": "ruby",
         "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/code/config.txt"
     }
 ]
