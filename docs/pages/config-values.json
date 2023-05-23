@@ -33,50 +33,5 @@
         "id": "export-dir",
         "type": "text",
         "cmd": "<b>export_dir</b> allows the user to set a custom output directory. If the directory does not exist, Splix will create a new directory in the specified path."
-    },
-    {
-        "id": "backup-mode",
-        "type": "cmd",
-        "cmd": "backup_mode:<1>"
-    },
-    {
-        "id": "backup-mode",
-        "type": "text",
-        "cmd": "<b>backup_mode</b> defines if original file(s) should be saved. Default value is 1, which indicates that a new directory <b>aex_backup_YY_MM_DD</b> will be created."
-    },
-    {
-        "id": "backup-dir",
-        "type": "cmd",
-        "cmd": "backup_dir:</Users/user/Desktop/backup>"
-    },
-    {
-        "id": "backup-dir",
-        "type": "text",
-        "cmd": "<b>backup_dir</b> will allow the user to set a custom backup directory. Invalid directory values will be ignored. If backup mode is set to false, this will be ignored as well."
-    },
-    {
-        "id": "auto-match-top",
-        "type": "cmd",
-        "cmd": "auto_match_top:<1>"
-    },
-    {
-        "id": "auto-match-top",
-        "type": "text",
-        "cmd": "<b>auto_match_top</b> determines if Splix should automatically detect overlapping lines. Overlapping lines will be set to the top of the screen. It is recommended to leave this setting to true."
-    },
-    {
-        "id": "remove-long-line",
-        "type": "cmd",
-        "cmd": "remove_long_line:<0>"
-    },
-    {
-        "id": "remove-long-line",
-        "type": "text",
-        "cmd": "<b>remove_long_line</b> will determine if lines containing too many characters should be removed. The default value is 0 which means that long lines are allowed."
-    },
-    {
-        "id": "overwrite-mode",
-        "type": "cmd",
-        "cmd": "overwrite_mode:<auto>"
     }
 ]
