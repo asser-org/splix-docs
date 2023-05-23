@@ -100,5 +100,10 @@
         "id": "usage",
         "type": "cmd",
         "cmd": "style_flashback_top:<Splix Flashback Italic Top>"
+    },
+    {
+        "id": "usage",
+        "type": "text",
+        "text": "This example will include all lines which are in the style <b>Splix Flashback Italic Top</b>. All other lines with different styles will be excluded or detected automatically, depending on your config files [style_match](https://splix.org/#/docs/values#match)-value. Note, that [force_line_break](https://splix.org/#/docs/values#force-line-break) will affect the style <b>position</b> value."
     }
 ]
