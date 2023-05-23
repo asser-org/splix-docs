@@ -7,6 +7,98 @@
     {
         "id": "styles-overview",
         "type": "text",
-        "text": "Styles can be used when parsing [Advanced SubStation Alpha](https://splix.org/#/docs/codecs) codec. They usually define if the line is italic, bold, etc. User can manually define styles that are included when Splix parses a file. By default Splix will automatically detect lines which contain dialogue. In some rare cases user might want to include some styles that were not detected by Splix."
+        "text": "Styles can be used when parsing [Advanced SubStation Alpha](https://splix.org/#/docs/codecs) codec. They usually define the line font, position or if the line is italic, bold, etc. User can manually define styles that are included when Splix parses a file. By default Splix will automatically detect lines which contain dialogue. In some rare cases user might want to include some styles that were not detected by Splix."
+    },
+    {
+        "id": "viable-styles",
+        "type": "title",
+        "text": "Supported styles"
+    },
+    {
+        "id": "viable-styles",
+        "type": "text",
+        "text": "Splix supports styles that are meant for <b>dialogue</b>. For example style that might represent text on a phone screen, sign or a actors shirt are <b>not</b> dialogue. It is recommended to separate dialogue from these. Splix separates styles by <b>Normal</b>, and <b>italic</b>. Either of these styles can have a position of <b>0</b> or <b>8</b>. View the list below for the available style presets."
+    },
+    {
+        "id": "presets",
+        "type": "title",
+        "text": "Presets"
+    },
+    {
+        "id": "presets",
+        "type": "table",
+        "titles": [ "id", "type", "position" ],
+        "items": [
+            {
+                "id": "style_main",
+                "type": "normal",
+                "position": "0"
+            },
+            {
+                "id": "style_top",
+                "type": "normal",
+                "position": "8"
+            },
+            {
+                "id": "style_overlap",
+                "type": "normal",
+                "position": "8"
+            },
+            {
+                "id": "style_overlap_italic",
+                "type": "italic",
+                "position": "8"
+            },
+            {
+                "id": "style_italic",
+                "type": "italic",
+                "position": "0"
+            },
+            {
+                "id": "style_italic_top",
+                "type": "italic",
+                "position": "8"
+            },
+            {
+                "id": "style_flashback",
+                "type": "normal",
+                "position": "0"
+            },
+            {
+                "id": "style_flashback_top",
+                "type": "normal",
+                "position": "8"
+            },
+            {
+                "id": "style_narration",
+                "type": "italic",
+                "position": "8"
+            },
+            {
+                "id": "style_custom_main",
+                "type": "normal",
+                "position": "0"
+            },
+            {
+                "id": "style_custom_italic_top",
+                "type": "italic",
+                "position": "8"
+            }
+        ]
+    },
+    {
+        "id": "usage",
+        "type": "title",
+        "text": "Usage"
+    },
+    {
+        "id": "usage",
+        "type": "text",
+        "text": "Style id-values are named so that they represent their use-case. For example, one should use the style <b>style_italic</b> for music, or internal dialogue. Position of <b>0</b> represents the bottom-center on-screen position, while <b>8</b> is the top-center position. Styles are defined in the config file. View the example below."
+    },
+    {
+        "id": "usage",
+        "type": "cmd",
+        "cmd": "style_flashback_top:<Splix Flashback Italic Top>"
     }
 ]
