@@ -78,50 +78,5 @@
         "id": "overwrite-mode",
         "type": "cmd",
         "cmd": "overwrite_mode:<auto>"
-    },
-    {
-        "id": "overwrite-mode",
-        "type": "text",
-        "cmd": "<b>overwrite_mode</b> will define the mode used to determine if existing files should be overwritten. The values can set to: <b>auto</b>: prompt user to choose, <b>overwrite</b>: automatically overwrites existing files, <b>ignore</b>: does not overwrite files. If multiplexing mode is set to <b>fast</b> the overwriting mode auto is <b>not</b> viable, and will be set to ignore."
-    },
-    {
-        "id": "removal-keyword",
-        "type": "cmd",
-        "cmd": "removal_keyword:<[Ss]plix>"
-    },
-    {
-        "id": "removal-keyword",
-        "type": "text",
-        "cmd": "<b>removal_keyword</b> is an regex-string, and will match lines containing the value. If this expression matches a line, then the line will be removed. In this example, matches would be splix and Splix."
-    },
-    {
-        "id": "sync-buffer",
-        "type": "cmd",
-        "cmd": "sync_buffer:<1000>"
-    },
-    {
-        "id": "sync-buffer",
-        "type": "text",
-        "cmd": "<b>sync_buffer</b> is an integer value, and determines the time in milliseconds to be added or subtracted from each line. In this example each line will gain 1 second to their timecode. Original: <b>00:01:02,700</b> output: <b>00:01:03,700</b>. Values can be positive or negative. If the value was <b>-1000</b> then output: <b>00:01:01,700</b>. Values 0, and aex_ignore will be ignored. The value can be preceeded with a timecode, which determines when syncing will start, e.g <b>00:15:45,-1000</b>."
-    },
-    {
-        "id": "line-tuning",
-        "type": "cmd",
-        "cmd": "line_tuning:<ja_en>"
-    },
-    {
-        "id": "line-tuning",
-        "type": "text",
-        "cmd": "<b>line_tuning</b> determines the quality check tuning language. In this example <b>ja</b> indicates original content language and <b>en</b> the subtitle language. Splix has tuning configurations for Japanese content: <b>ja_ja</b> and <b>ja_en</b>. Tuning should be set to <b>none</b> if content language is not Japanese."
-    },
-    {
-        "id": "force-line-break",
-        "type": "cmd",
-        "cmd": "force_line_break:<1>"
-    },
-    {
-        "id": "force-line-break",
-        "type": "text",
-        "cmd": "<b>force_line_break</b> determines if Splix should break long lines automatically. The line <b>The quick brown fox jumps over the lazy dog</b>, would be broken as follows: <b>The quick brown fox<break>jumps over the lazy dog</b>."
     }
 ]
