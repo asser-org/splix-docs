@@ -27,7 +27,7 @@
     {
         "id": "new-config",
         "type": "text",
-        "text": "You can create a new config file inside the specified input path, with the <b>--config</b> argument."
+        "text": "You can create a new config file inside the specified input path, with the <b>--config</b> argument. Note, that you cannot create config files via the <b>gui</b>. Instead look for the available settings."
     },
     {
         "id": "new-config",
@@ -37,7 +37,7 @@
     {
         "id": "example-file",
         "type": "title",
-        "text": "Example configuration file"
+        "text": "Example config file"
     },
     {
         "id": "example-file",
