@@ -123,5 +123,170 @@
         "id": "force-line-break",
         "type": "text",
         "text": "<b>force_line_break</b> determines if Splix should break long lines automatically. The line <b>The quick brown fox jumps over the lazy dog</b>, would be broken as follows: <b>The quick brown fox<break>jumps over the lazy dog</b>."
+    },
+    {
+        "id": "fps",
+        "type": "cmd",
+        "cmd": "frame_rate:<23.976>"
+    },
+    {
+        "id": "fps",
+        "type": "text",
+        "text": "<b>frame_rate</b> sets the content frame-rate. It is used for encoding image-based subtitle files, such as <b>S_HDMV/PGS</b>. If the original file is a container, Splix will automatically detect the frame-rate."
+    },
+    {
+        "id": "screen-width",
+        "type": "cmd",
+        "cmd": "screen_width:<1920>"
+    },
+    {
+        "id": "screen-width",
+        "type": "text",
+        "text": "<b>screen_width</b> determines the content width. This value is used for encoding image-based subtitle files, such as <b>S_HDMV/PGS</b>. If the original file is a container, Splix can automatically detect this value."
+    },
+    {
+        "id": "screen-height",
+        "type": "cmd",
+        "cmd": "screen_height:<1080>"
+    },
+    {
+        "id": "screen-height",
+        "type": "text",
+        "text": "<b>screen_height</b> determines the content height. This value is used for encoding image-based subtitle files, such as <b>S_HDMV/PGS</b>. If the original file is a container, Splix can automatically detect this value."
+    },
+    {
+        "id": "include-actors",
+        "type": "cmd",
+        "cmd": "include_actors:<0>"
+    },
+    {
+        "id": "include-actors",
+        "type": "text",
+        "text": "<b>include_actors</b> determines if actors should be included in the exported file. Some formats like [Advanced SubStation Alpha](https://splix.org/#/docs/codecs) allow setting an actor for a line, but by default Splix will remove these."
+    },
+    {
+        "id": "user-removal-key",
+        "type": "cmd",
+        "cmd": "user_removal_key:<^[Nn]ote:.*.{1}:>"
+    },
+    {
+        "id": "user-removal-key",
+        "type": "text",
+        "text": "<b>user_removal_key</b> is an regex string. It determines a part of the line to be removed. In this example, if the line Begins with the word Note: or note: Splix will remove all text untill the first period."
+    },
+    {
+        "id": "fix-upper-words",
+        "type": "cmd",
+        "cmd": "fix_upper_words:<0>"
+    },
+    {
+        "id": "fix-upper-words",
+        "type": "text",
+        "text": "<b>fix_upper_words</b> determines if uppercase words should be fixed to regular casing. For example, a line: Hello, THERE! would be converted to Hello, there!."
+    },
+    {
+        "id": "long-line-dur",
+        "type": "cmd",
+        "cmd": "long_line_dur:<10000>"
+    },
+    {
+        "id": "long-line-dur",
+        "type": "text",
+        "text": "<b>long_line_dur</b> determines the maximum allowed line duration. If line exceeds this value, it will be removed. The default value is 10 seconds."
+    },
+    {
+        "id": "container",
+        "type": "title",
+        "text": "Container"
+    },
+    {
+        "id": "force-sub-lang",
+        "type": "cmd",
+        "cmd": "force_sub_lang:<1:ja,2:de>"
+    },
+    {
+        "id": "force-sub-lang",
+        "type": "text",
+        "text": "<b>force_sub_lang</b> is an string value with delimiters. It defines the language for a specific subtitle track in a container. In this example track 2 will be set as Japanese, and track 3 will be set as German. Note, that track count starts at 0."
+    },
+    {
+        "id": "force-audio-lang",
+        "type": "cmd",
+        "cmd": "force_audio_lang:<en>"
+    },
+    {
+        "id": "force-audio-lang",
+        "type": "text",
+        "text": "<b>force_audio_lang</b> is an string value with delimiters. It defines the language for a specific audio track in a container. In this example no delimiters are provided which will set all audio tracks as English."
+    },
+    {
+        "id": "embedded-subtitles",
+        "type": "cmd",
+        "cmd": "embedded_subtitles:<1>"
+    },
+    {
+        "id": "embedded-subtitles",
+        "type": "text",
+        "text": "<b>embedded_subtitles</b> determines if image-based subtitles from a container should be included in the new encode or merge. Because image-based subtitles cannot be modified, you can remove them completely or include them. It is recommended to leave this as true."
+    },
+    {
+        "id": "main-audio",
+        "type": "cmd",
+        "cmd": "main_audio_lang:<ja>"
+    },
+    {
+        "id": "main-audio",
+        "type": "text",
+        "text": "<b>main_audio_lang</b> is a string value, and defines the container default audio flag. The flag indicates original content language for the video player."
+    },
+    {
+        "id": "exact-track-name",
+        "type": "cmd",
+        "cmd": "exact_track_name:<Dialogue>"
+    },
+    {
+        "id": "exact-track-name",
+        "type": "text",
+        "text": "<b>exact_track_name</b> is an regex string. To disable, use the value <b>aex_ignore</b>. It will only include subtitle tracks where the title caontains the provided value."
+    },
+    {
+        "id": "custom-ignore",
+        "type": "cmd",
+        "cmd": "custom_track_ignore:<Commentary>"
+    },
+    {
+        "id": "custom-ignore",
+        "type": "text",
+        "text": "<b>custom_track_ignore</b> is an regex string. To disable, use the value <b>aex_ignore</b>. This value indicates the track titles that should be ignored and not included in the final file."
+    },
+    {
+        "id": "cut-time",
+        "type": "cmd",
+        "cmd": "cut_time:<00:00:10>"
+    },
+    {
+        "id": "cut-time",
+        "type": "text",
+        "text": "<b>cut_time</b> contains the timecode for splitting a container file. In this example the file will be cut 10 seconds from the beginning."
+    },
+    {
+        "id": "keep-chapters",
+        "type": "cmd",
+        "cmd": "keep_chapters:<0>"
+    },
+    {
+        "id": "keep-chapters",
+        "type": "text",
+        "text": "<b>keep_chapters</b> determines if the chapters should be kept for the final encode. Some containers include chapters which indicate sections in the content, by default Splix will remove the chapters."
+    },
+    {
+        "id": "exclude-tracks",
+        "type": "cmd",
+        "cmd": "exclude_tracks:<4,7>"
+    },
+    {
+        "id": "exclude-tracks",
+        "type": "text",
+        "text": "<b>exclude_tracks</b> is an string value with delimiters. It will specify the track numbers to be ignored. In this example tracks 5 and 7 will be removed from the final encode. Note, that track count starts at 0."
     }
 ]
