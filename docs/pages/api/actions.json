@@ -17,7 +17,7 @@
     {
         "id": "request-subtitle",
         "type": "text",
-        "text": "Request a subtitle from server. Server default configuration is used. <b>Returns 404</b> if the subtitle was found not on the server."
+        "text": "Request a subtitle from server. Server default configuration is used. <b>Returns 404</b> if the subtitle was not found on the server."
     },
     {
         "id": "request-subtitle",
