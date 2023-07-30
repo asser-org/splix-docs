@@ -1,0 +1,38 @@
+[
+    {
+        "id": "actions-overview",
+        "type": "title",
+        "text": "Actions"
+    },
+    {
+        "id": "actions-overview",
+        "type": "text",
+        "text": "List of actions that can be performed via the API. Server running proper aex-software is required to use the API."
+    },
+    {
+        "id": "request-subtitle",
+        "type": "title",
+        "text": "Get subtitle"
+    },
+    {
+        "id": "request-subtitle",
+        "type": "text",
+        "text": "Request a subtitle from server. Server default configuration is used. <b>Returns 404</b> if the subtitle was found not on the server."
+    },
+    {
+        "id": "request-subtitle",
+        "type": "cmd",
+        "cmd": "GET /api/subtitle?{file}"
+    },
+    {
+        "id": "response-subtitle",
+        "type": "title",
+        "text": "Example config file"
+    },
+    {
+        "id": "response-subtitle",
+        "type": "code",
+        "lang": "json",
+        "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/api/responses/subtitle.txt"
+    }
+]

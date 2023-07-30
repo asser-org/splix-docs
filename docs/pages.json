@@ -1,5 +1,18 @@
 [
     {
+        "id": 0,
+        "title": "API",
+        "items":  [
+            {
+                "id": 0.1,
+                "title": "Actions",
+                "date": "2023-07-30",
+                "section": "config",
+                "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/api/actions.json"
+            }
+        ]
+    },
+    {
         "id": 1,
         "title": "Getting started",
         "items":  [
