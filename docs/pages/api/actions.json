@@ -33,6 +33,6 @@
         "id": "response-subtitle",
         "type": "code",
         "lang": "json",
-        "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/api/responses/subtitle.txt"
+        "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/api/responses/subtitle.txt"
     }
 ]
