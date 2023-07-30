@@ -1,13 +1,24 @@
 [
     {
-        "id": "actions-overview",
+        "id": "request-version",
         "type": "title",
-        "text": "Actions"
+        "text": "Get version"
     },
     {
-        "id": "actions-overview",
+        "id": "request-version",
         "type": "text",
-        "text": "List of actions that can be performed via the API. Server running proper aex-software is required to use the API."
+        "text": "Request the software version used by the server. Usually used to determine the available feature set."
+    },
+    {
+        "id": "request-version",
+        "type": "cmd",
+        "cmd": "GET /api/version"
+    },
+    {
+        "id": "request-version",
+        "type": "code",
+        "lang": "json",
+        "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/api/responses/version.txt"
     },
     {
         "id": "request-subtitle",
@@ -23,11 +34,6 @@
         "id": "request-subtitle",
         "type": "cmd",
         "cmd": "GET /api/subtitle?{file}"
-    },
-    {
-        "id": "response-subtitle",
-        "type": "title",
-        "text": "Response"
     },
     {
         "id": "response-subtitle",
