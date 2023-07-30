@@ -7,7 +7,7 @@
                 "id": 99.1,
                 "title": "Actions",
                 "date": "2023-07-30",
-                "section": "config",
+                "section": "api-actions",
                 "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/api/actions.json"
             }
         ]
