@@ -40,5 +40,26 @@
         "type": "code",
         "lang": "json",
         "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/api/responses/subtitle.txt"
+    },
+    {
+        "id": "encode-subtitle",
+        "type": "title",
+        "text": "Encode subtitle"
+    },
+    {
+        "id": "encode-subtitle",
+        "type": "text",
+        "text": "Send a subtitle to server for encoding. Subtitle must use the correct JSON-formatting. <b>Returns 400</b> on error."
+    },
+    {
+        "id": "request-subtitle",
+        "type": "cmd",
+        "cmd": "POST /api/subtitle/encode?{path}"
+    },
+    {
+        "id": "response-subtitle-encode",
+        "type": "code",
+        "lang": "json",
+        "path": "https://raw.githubusercontent.com/asserc/splix-docs/main/docs/pages/api/responses/encode.txt"
     }
 ]
