@@ -1,5 +1,0 @@
-201 CREATED
-
-{
-    "path": "/Users/myuser/save/path/my_file.srt"
-}
